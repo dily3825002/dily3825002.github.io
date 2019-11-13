@@ -32,11 +32,11 @@
     window.$docsify = {
       name: '',
       repo: 'https://github.com/dily3825002/dily3825002.github.io',
-      ga: 'UA-151199059-1',
+      //ga: 'UA-151199059-1',
       noEmoji: true,
 
       loadNavbar: true,
-      coverpage: true,
+      coverpage: false,
       onlyCover: false,
 
       search: 'auto',
@@ -45,17 +45,10 @@
       search: {
        
       maxAge: 86400000, // Expiration time, the default one day
-      paths: [
-        '/',
-        '/cn/',            // => /README.md
-        '/en/',      // => /en/README.md
-      ], // or 'auto'
 
       // Localization
       placeholder: {
-        '/': 'Search',
-        '/cn/': '在此输入并搜索',
-        '/en/': 'Type to search'
+        '/': 'Search'
       },
 
       noData: 'No Results!',
@@ -69,7 +62,7 @@
       // Headline depth, 1 - 6
       depth: 2,
 
-      hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+      hideOtherSidebarContent: true, // whether or not to hide other sidebar content
 
       // To avoid search index collision
       // between multiple websites under the same domain
