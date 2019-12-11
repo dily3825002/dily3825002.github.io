@@ -3,7 +3,6 @@
 [Dily](https://dilyblog.com/) &copy; 2019
 
 -----
-# 蚂蚁区块链
 
 ## 解决方案
 
